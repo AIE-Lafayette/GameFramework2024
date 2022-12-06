@@ -1,9 +1,8 @@
 #pragma once
-#include "Scene.h"
-#include <Vector2.h>
-#include <cmath>
+#include <Matrix3.h>
 #include "ActorArray.h"
 class Camera2D;
+class Scene;
 
 static class Engine
 {
@@ -101,7 +100,7 @@ public:
 
 private:
     void start();
-    void update(float delaTime);
+    void update(float deltaTime);
     void draw();
     void end();
 

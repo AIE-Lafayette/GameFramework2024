@@ -33,6 +33,7 @@ void Actor::onCollision(Actor* other)
 
 void Actor::update(float deltaTime)
 {
+    m_transform->updateTransforms();
 }
 
 void Actor::draw()

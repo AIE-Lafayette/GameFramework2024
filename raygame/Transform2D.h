@@ -121,7 +121,6 @@ public:
     /// </summary>
     MathLibrary::Matrix3* getLocalMatrix();
 
-private:
     /// <summary>
     /// Updates the global transform to be the combination of the paernt and local
     /// transforms. Updates the transforms for all children of this transform
